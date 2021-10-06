@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<title>Survey Page</title>
+<link href="SurveyPageCSS.css" rel="stylesheet">
+<body>
+<html>
+<head>
+  <div class="container">
+<title>Title of the document</title>
+  <h1 id="title">FreeCodeCamp Survey Form</h1>
+  <p id="description" class="myDIV">Thank you for taking the time to fill out this form, your input is valued and appreciated!</p>
+    <div class="hide">I just hid this here to see if it would work!</div>
+</head>
+  </body>
+  </div>
+  <div class="form-group" align:center>
+  <form id="survey-form">
+    <label id="name-label" for="name">Full Name:</label>
+<input type="text" id="name" name="name" class="form-control"  placeholder="Enter your name" required><br><br>
+    <label id="email-label" for="email">Email Address:</label>
+    <input type="email" id="email" name="email" class ="form-control" placeholder ="Enter your email address" required><br> <br>
+    <label id="number-label" for="number">Age:</label>
+    <input type="number" id="number" class ="form-control" min="10" max="99" placeholder ="Enter your age - optional" required><br> <br>
+    <p>Which area of Software Development interests you the most? </p><br>
+    <label for="dropdown">Choose a discipline:</label>
+<select name="dropdown" id="dropdown">
+  <option value="Front End Web Development">Front End Web Development</option>
+  <option value="Back End Programming">Back End Programming</option>
+  <option value="Game Development">Game Development</option>
+ <option value="Algorthims and Data Structures">Algorithms and Data Structures</option>
+    </select><br><br>
+    <fieldset>
+      <legend>Please select your favorite programming language:</legend>
+      <input type="radio" id="Java" name="fav_language" value="Java">
+      <label for="Java">Java</label><br>
+      <input type="radio" id="C##" name="fav_language" value="C##">
+      <label for="C##">C##</label><br>
+      <input type="radio" id="Python" name="fav_language" value="Python">
+        <label for="Python">Python</label><br>
+      <input type="radio" id="Javascript" name="fav_language" value="Javascript">
+      <label for="Javascript">Javascript</label><br>
+ <input type="radio" id="HTML/CSS" name="fav_language" value="HTML/CSS">
+      <label for="HTML/CSS">HTML/CSS</label><br>
+    </fieldset><br>
+    <fieldset>
+      <legend>Please check any of the following that apply to you:</legend>
+      <input type="checkbox" id="check1" name="check1" value="check1">
+      <label for="check1">I am self-learning Software Development</label><br>
+      <input type="checkbox" id="check2" name="check2" value="check2">
+      <label for="check2">I am in School for Software Development/Computer Science, or a related &emsp; field</label><br>
+      <input type="checkbox" id="check3" name="check3" value="check3">
+      <label for="check3">I hold a degree in Software Development/Computer Science, or a related &emsp; field</label><br>
+      <input type="checkbox" id="check4" name="check4" value="check4">
+      <label for="check4">I have work experience in Software Development and/or another IT-related field</label><br>
+   </fieldset><br>
+       <p>Have any thoughts?</p>
+    <label for="textarea"></label>
+    <textarea id="textarea" name="textarea" rows="10" cols="80">
+Please leave any comments here
+    </textarea>
+    <br><br>
+   
+    
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+    </div>
+  </div>
+  </div>
+    </form>
+</html>
