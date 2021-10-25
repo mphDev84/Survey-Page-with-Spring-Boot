@@ -77,7 +77,7 @@ h1{
 @media screen and (min-width:500px){
   .form-group{
     width:65%;
-    margin:40px 150px;
+    margin:40px auto;
   }
 }
 @media screen and (min-width:500px){
