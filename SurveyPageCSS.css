@@ -74,15 +74,15 @@ h1{
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-@media screen{
+@media screen and (min-width:500px){
   .form-group{
     width:65%;
     margin:40px 150px;
   }
 }
-@media screen{
+@media screen and (min-width:500px){
   .form-control{
-    width:70%;
+    width:100%;
   }
 }
 .center{
