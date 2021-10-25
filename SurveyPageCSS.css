@@ -73,18 +73,23 @@ h1{
   border-radius: 0.35rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-
-@media screen and (min-width:500px){
+@media screen and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
   .form-group{
-    width:65%;
-    margin:40px auto;
+    justify-items:center;
+    
+    width:70%;
+     margin:40px auto;
   }
 }
-@media screen and (min-width:500px){
+@media screen and (min-device-width : 768px) 
+and (max-device-width : 1024px){
   .form-control{
+    position:relative;
     width:100%;
   }
 }
+
 .center{
   padding: 4px 0 0 0;
 }
